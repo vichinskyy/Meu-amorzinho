@@ -3,8 +3,11 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom, #ff9999, #ffccff);
-    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da janela */
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
     flex-direction: column;
 }
 
@@ -14,18 +17,17 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex: 1; /* Adicionado para empurrar o rodapé para o fundo */
+    
 }
-
-.footer {
-    text-align: center;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.footer { 
+    text-align: center; 
+    padding: 10px; 
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 10px; 
     font-style: italic;
-    background: #ff9999;
-    width: 100%; /* Adicionado para garantir que o rodapé ocupe toda a largura */
+    background: #ff9999
 }
 
 h1 {
