@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #333;
+    flex-direction: column;
 }
 
 .container {
@@ -16,6 +17,17 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.footer { 
+    text-align: center; 
+    padding: 10px; 
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 10px; 
+    font-style: italic;
+    background: #ff9999
 }
 
 h1 {
